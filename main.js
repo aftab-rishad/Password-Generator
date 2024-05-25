@@ -33,7 +33,7 @@ const copyPassword = () => {
     if (passwordBox.value) {
       copyPasswordInfo.style.opacity = "0";
     }
-  }, 1200);
+  }, 2000);
 };
 
 generatePassword.addEventListener("click", createPassword);
