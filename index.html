@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <!-- CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Generate a Random Password</h1>
+      <div class="content">
+        <div id="password-box">
+          <input type="text" placeholder="Your Password" readonly="readonly" />
+          <button><i class="ri-file-copy-line"></i></button>
+        </div>
+        <div class="button-box">
+          <button class="generate-button">
+            Generate Password
+            <i
+              class="ri-dice-fill"
+              style="margin-left: 5px; color: #aacc00"
+            ></i>
+          </button>
+          <p><i class="ri-checkbox-circle-fill"></i> Password copied</p>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript File -->
+    <script src="main.js"></script>
+  </body>
+</html>
